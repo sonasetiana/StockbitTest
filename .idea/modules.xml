@@ -3,7 +3,6 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/Stockbit_Test.iml" filepath="$PROJECT_DIR$/.idea/modules/Stockbit_Test.iml" />
-      <module fileurl="file://$PROJECT_DIR$/.idea/modules/accounts/Stockbit_Test.accounts.iml" filepath="$PROJECT_DIR$/.idea/modules/accounts/Stockbit_Test.accounts.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/Stockbit_Test.app.iml" filepath="$PROJECT_DIR$/.idea/modules/app/Stockbit_Test.app.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/Stockbit_Test.buildSrc.iml" filepath="$PROJECT_DIR$/.idea/modules/Stockbit_Test.buildSrc.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/common/Stockbit_Test.common.iml" filepath="$PROJECT_DIR$/.idea/modules/common/Stockbit_Test.common.iml" />
@@ -13,6 +12,8 @@
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/data/model/Stockbit_Test.data.model.iml" filepath="$PROJECT_DIR$/.idea/modules/data/model/Stockbit_Test.data.model.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/data/remote/Stockbit_Test.data.remote.iml" filepath="$PROJECT_DIR$/.idea/modules/data/remote/Stockbit_Test.data.remote.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/data/repository/Stockbit_Test.data.repository.iml" filepath="$PROJECT_DIR$/.idea/modules/data/repository/Stockbit_Test.data.repository.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/features/Stockbit_Test.features.iml" filepath="$PROJECT_DIR$/.idea/modules/features/Stockbit_Test.features.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/features/accounts/Stockbit_Test.features.accounts.iml" filepath="$PROJECT_DIR$/.idea/modules/features/accounts/Stockbit_Test.features.accounts.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/navigation/Stockbit_Test.navigation.iml" filepath="$PROJECT_DIR$/.idea/modules/navigation/Stockbit_Test.navigation.iml" />
     </modules>
   </component>
