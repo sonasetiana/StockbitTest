@@ -18,4 +18,5 @@ abstract class ExampleDao: BaseDao<ExampleModel>() {
     suspend fun save(datas: List<ExampleModel>) {
         insert(datas)
     }
+
 }
