@@ -1,6 +1,7 @@
 package com.stockbit.common.base
 
 import android.os.Bundle
+import android.view.View
 import androidx.fragment.app.Fragment
 import androidx.lifecycle.LiveData
 import androidx.lifecycle.Observer
@@ -14,8 +15,14 @@ import com.stockbit.navigation.NavigationCommand
 
 abstract class BaseFragment: Fragment() {
 
-    override fun onActivityCreated(savedInstanceState: Bundle?) {
-        super.onActivityCreated(savedInstanceState)
+//    override fun onActivityCreated(savedInstanceState: Bundle?) {
+//        super.onActivityCreated(savedInstanceState)
+//        observeNavigation(getViewModel())
+//        setupSnackbar(this, getViewModel().snackBarError, Snackbar.LENGTH_LONG)
+//    }
+
+    override fun onViewCreated(view: View, savedInstanceState: Bundle?) {
+        super.onViewCreated(view, savedInstanceState)
         observeNavigation(getViewModel())
         setupSnackbar(this, getViewModel().snackBarError, Snackbar.LENGTH_LONG)
     }

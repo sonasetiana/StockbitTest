@@ -17,7 +17,7 @@ class AccountDataSourceImpl(
         dao.save(items.map { AccountEntity(it) })
     }
 
-    override suspend fun getAccounts(): Flow<List<Account>> {
+    override fun getAccounts(): Flow<List<Account>> {
         return dao.getAccounts()
             .map { items ->
                 items.map {
@@ -25,7 +25,7 @@ class AccountDataSourceImpl(
             }
     }
 
-    override suspend fun findAccount(emailOrUsername: String, password: String): Flow<List<Account>> {
+    override fun findAccount(emailOrUsername: String, password: String): Flow<List<Account>> {
         return dao.findAccount(emailOrUsername, password)
             .map { items ->
                 items.map {

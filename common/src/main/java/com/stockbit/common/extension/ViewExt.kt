@@ -1,6 +1,8 @@
 package com.stockbit.common.extension
 
+import android.opengl.Visibility
 import android.view.View
+import android.widget.Toast
 import androidx.fragment.app.Fragment
 import androidx.lifecycle.LifecycleOwner
 import androidx.lifecycle.LiveData
@@ -25,3 +27,9 @@ fun Fragment.setupSnackbar(lifecycleOwner: LifecycleOwner, snackbarEvent: LiveDa
         }
     })
 }
+
+fun View.visible() = View.VISIBLE.also { this.visibility = it }
+
+fun View.inVisible() = View.INVISIBLE.also { this.visibility = it }
+
+fun View.gone() = View.VISIBLE.also { this.visibility = it }

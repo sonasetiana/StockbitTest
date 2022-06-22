@@ -7,7 +7,7 @@ dependencies {
     implementation TestLibraries.androidTestRunner
     implementation TestLibraries.espresso
     implementation Libraries.koin
-    implementation Libraries.koinViewModel
+    //implementation Libraries.koinViewModel
     implementation AndroidLibraries.recyclerView
     implementation TestLibraries.coroutine
 }

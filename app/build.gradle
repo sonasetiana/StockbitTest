@@ -22,10 +22,12 @@ dependencies {
     implementation project(Modules.navigation)
     // KOIN
     implementation Libraries.koin
-    implementation Libraries.koinViewModel
+    //implementation Libraries.koinViewModel
     // ANDROID
     implementation AndroidLibraries.constraintLayout
     implementation AndroidLibraries.appCompat
     implementation AndroidLibraries.navigation
     implementation AndroidLibraries.navigationFrag
+    // FEATURES
+    implementation project(Modules.account)
 }

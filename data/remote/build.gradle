@@ -7,7 +7,7 @@ dependencies {
     implementation KotlinLibraries.kotlin
     // KOIN
     implementation Libraries.koin
-    implementation Libraries.koinViewModel
+    //implementation Libraries.koinViewModel
     // NETWORK
     implementation Libraries.gson
     implementation Libraries.retrofit

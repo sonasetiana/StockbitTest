@@ -17,10 +17,10 @@ abstract class AccountDao : BaseDao<AccountEntity>() {
     }
 
     @Query("SELECT * FROM Account")
-    abstract suspend fun getAccounts() : Flow<List<AccountEntity>>
+    abstract fun getAccounts() : Flow<List<AccountEntity>>
 
     @Query("SELECT * FROM Account WHERE (email = :emailOrUsername or username = :emailOrUsername) AND password = :password")
-    abstract suspend fun findAccount(
+    abstract fun findAccount(
         emailOrUsername: String,
         password: String
     ) : Flow<List<AccountEntity>>

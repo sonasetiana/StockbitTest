@@ -5,17 +5,24 @@ import com.stockbit.model.Account
 import com.stockbit.repository.AppDispatchers
 import com.stockbit.repository.dummy.DummyAccounts
 import com.stockbit.repository.utils.Resource
+import kotlinx.coroutines.CoroutineScope
+import kotlinx.coroutines.Job
 import kotlinx.coroutines.flow.*
+import kotlinx.coroutines.launch
+import kotlinx.coroutines.withContext
 
 class AccountsRepositoryImpl(
     private val dispatcher: AppDispatchers,
     private val dataSource: AccountDataSource
 ) : AccountsRepository{
-    override suspend fun setupAccounts() {
-        dataSource.saveAccountList(DummyAccounts.getAccounts())
+    override fun setupAccounts() {
+        CoroutineScope(Job()).launch(dispatcher.io) {
+            dataSource
+                .saveAccountList(DummyAccounts.getAccounts())
+        }
     }
 
-    override suspend fun doLogin(
+    override fun doLogin(
         usernameOrEmail: String,
         password: String
     ): Flow<Resource<Account>> = flow {

@@ -3,6 +3,7 @@ package com.stockbit.local.dao
 import androidx.room.Dao
 import androidx.room.Query
 import com.stockbit.model.ExampleModel
+import kotlinx.coroutines.flow.Flow
 import java.util.*
 
 @Dao

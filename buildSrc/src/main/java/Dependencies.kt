@@ -14,6 +14,8 @@ object Modules {
     val remote = ":data:remote"
     val model = ":data:model"
     val repository = ":data:repository"
+
+    val account = ":features:accounts"
 }
 
 object Releases {
@@ -24,11 +26,11 @@ object Releases {
 object Versions {
     val kotlin = "1.5.10"
     val gradle = "4.0.1"
-    val compileSdk = 30
+    val compileSdk = 31
     val minSdk = 23
-    val targetSdk = 30
-    val appCompat = "1.1.0-alpha02"
-    val coreKtx = "1.1.0"
+    val targetSdk = 31
+    val appCompat = "1.4.1"
+    val coreKtx = "1.7.0"
     val constraintLayout = "1.1.3"
     val junit = "4.12"
     val androidTestRunner = "1.1.2-alpha02"
@@ -39,10 +41,10 @@ object Versions {
     val gson = "2.8.5"
     val okHttp = "3.12.1"
     val coroutines = "1.4.3"
-    val koin = "2.0.1"
+    val koin = "3.1.5"
     val timber = "4.7.1"
     val lifecycle = "2.2.0"
-    val nav = "2.0.0"
+    val nav = "2.3.5"
     val room = "2.3.0"
     val recyclerview = "1.0.0"
     val safeArgs = "1.1.1"
@@ -57,7 +59,7 @@ object Versions {
 object Libraries {
     // KOIN
     val koin = "io.insert-koin:koin-android:${Versions.koin}"
-    val koinViewModel = "io.insert-koin:koin-android-viewmodel:${Versions.koin}"
+    //val koinViewModel = "io.insert-koin:koin-android-viewmodel:${Versions.koin}"
     // ROOM
     val roomCompiler = "androidx.room:room-compiler:${Versions.room}"
     val roomRunTime = "androidx.room:room-runtime:${Versions.room}"
@@ -84,6 +86,7 @@ object AndroidLibraries {
     val coreKtx = "androidx.core:core-ktx:${Versions.coreKtx}"
     val constraintLayout = "androidx.constraintlayout:constraintlayout:${Versions.constraintLayout}"
     val lifecycleViewModel = "androidx.lifecycle:lifecycle-viewmodel-ktx:${Versions.lifecycle}"
+    val livedata = "androidx.lifecycle:lifecycle-livedata-ktx:${Versions.lifecycle}"
     val lifecycleExtensions = "androidx.lifecycle:lifecycle-extensions:${Versions.lifecycle}"
     val recyclerView = "androidx.recyclerview:recyclerview:${Versions.recyclerview}"
     val navigation = "androidx.navigation:navigation-ui-ktx:${Versions.nav}"

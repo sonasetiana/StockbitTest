@@ -15,11 +15,12 @@
         </compilerSettings>
         <compilerArguments>
           <option name="destination" value="$MODULE_DIR$/../../../../data/model/build/tmp/kotlin-classes/debug" />
-          <option name="classpath" value="$USER_HOME$/.gradle/caches/transforms-2/files-2.1/2819cacbfe62d1bf7217d99c70993448/jetified-kotlin-stdlib-jdk7-1.5.10.jar:/Users/sonasetiana/.gradle/caches/transforms-2/files-2.1/822539bdc43b867bd9a1f3e48066f237/jetified-kotlin-stdlib-1.5.10.jar:/Users/sonasetiana/.gradle/caches/transforms-2/files-2.1/ca46a90b71185d8621ad775f5dd348bf/jetified-annotations-13.0.jar:/Users/sonasetiana/.gradle/caches/transforms-2/files-2.1/b6c73b5f7dac1d5383058297b969a824/jetified-kotlin-stdlib-common-1.5.10.jar:/Users/sonasetiana/.gradle/caches/transforms-2/files-2.1/01f394bfdcfbefed2f6329cda872a897/jetified-gson-2.8.5.jar:/Users/sonasetiana/.gradle/caches/transforms-2/files-2.1/07499fa7db91efe07521f676b2a46182/room-runtime-2.3.0-api.jar:/Users/sonasetiana/.gradle/caches/modules-2/files-2.1/androidx.room/room-common/2.3.0/11e5b5194cb53b2c5ebfa57710a1a74c67cb3335/room-common-2.3.0.jar:/Users/sonasetiana/.gradle/caches/transforms-2/files-2.1/2b8d6ee37f23a5de0783c26c2b0538d9/sqlite-framework-2.1.0-api.jar:/Users/sonasetiana/.gradle/caches/transforms-2/files-2.1/d658fb3af946071dc005a8f21fb7908c/sqlite-2.1.0-api.jar:/Users/sonasetiana/.gradle/caches/modules-2/files-2.1/androidx.annotation/annotation/1.1.0/e3a6fb2f40e3a3842e6b7472628ba4ce416ea4c8/annotation-1.1.0.jar:/Users/sonasetiana/Library/Android/sdk/platforms/android-30/android.jar:/Users/sonasetiana/Library/Android/sdk/build-tools/29.0.2/core-lambda-stubs.jar" />
+          <option name="classpath" value="$MODULE_DIR$/../../../../data/model/build/intermediates/compile_r_class_jar/debug/R.jar:/Users/sonasetiana/.gradle/caches/transforms-3/e7bf71d3ecdb87e3a57cebd5c8fb18eb/transformed/jetified-kotlin-stdlib-jdk7-1.6.10.jar:/Users/sonasetiana/.gradle/caches/transforms-3/0c4b3221a6bc5737e6929972a4adbb49/transformed/jetified-kotlin-stdlib-1.6.10.jar:/Users/sonasetiana/.gradle/caches/transforms-3/6bdddf75919c7cc0760cff9cbd6deb2f/transformed/jetified-annotations-13.0.jar:/Users/sonasetiana/.gradle/caches/transforms-3/c2e43d19041af9155b14d0cb5becdb93/transformed/jetified-kotlin-stdlib-common-1.6.10.jar:/Users/sonasetiana/.gradle/caches/transforms-3/202f7bee5d1ba40fd9e8aec89a6af497/transformed/jetified-gson-2.8.5.jar:/Users/sonasetiana/.gradle/caches/transforms-3/1b7414a92fb0cedede4c91657a6bbfaa/transformed/room-runtime-2.3.0-api.jar:/Users/sonasetiana/.gradle/caches/modules-2/files-2.1/androidx.room/room-common/2.3.0/11e5b5194cb53b2c5ebfa57710a1a74c67cb3335/room-common-2.3.0.jar:/Users/sonasetiana/.gradle/caches/transforms-3/b99cc88fb28ccdf3d7e43b08cc187fd2/transformed/sqlite-framework-2.1.0-api.jar:/Users/sonasetiana/.gradle/caches/transforms-3/69eadcee6b9538806be3974675425158/transformed/sqlite-2.1.0-api.jar:/Users/sonasetiana/.gradle/caches/modules-2/files-2.1/androidx.annotation/annotation/1.1.0/e3a6fb2f40e3a3842e6b7472628ba4ce416ea4c8/annotation-1.1.0.jar:/Users/sonasetiana/Library/Android/sdk/platforms/android-31/android.jar:/Users/sonasetiana/Library/Android/sdk/build-tools/30.0.2/core-lambda-stubs.jar" />
           <option name="noStdlib" value="true" />
           <option name="moduleName" value="model_debug" />
+          <option name="jvmTarget" value="1.8" />
           <option name="languageVersion" value="1.6" />
-          <option name="apiVersion" value="1.5" />
+          <option name="apiVersion" value="1.6" />
           <option name="pluginOptions">
             <array />
           </option>
@@ -65,11 +66,10 @@
     <output-test url="file://$MODULE_DIR$/../../../../data/model/build/intermediates/javac/debugUnitTest/classes" />
     <exclude-output />
     <content url="file://$MODULE_DIR$/../../../../data/model">
-      <sourceFolder url="file://$MODULE_DIR$/../../../../data/model/src/main/java" isTestSource="false" />
       <excludeFolder url="file://$MODULE_DIR$/../../../../data/model/.gradle" />
       <excludeFolder url="file://$MODULE_DIR$/../../../../data/model/build" />
     </content>
-    <orderEntry type="jdk" jdkName="Android API 30 Platform" jdkType="Android SDK" />
+    <orderEntry type="jdk" jdkName="Android API 31 Platform" jdkType="Android SDK" />
     <orderEntry type="sourceFolder" forTests="false" />
     <orderEntry type="module-library">
       <library name="Gradle: kaptGeneratedClasses">
@@ -90,15 +90,5 @@
         <SOURCES />
       </library>
     </orderEntry>
-    <orderEntry type="library" name="Gradle: org.jetbrains.kotlin:kotlin-stdlib-jdk7:1.5.10" level="project" />
-    <orderEntry type="library" name="Gradle: org.jetbrains.kotlin:kotlin-stdlib:1.5.10" level="project" />
-    <orderEntry type="library" name="Gradle: org.jetbrains:annotations:13.0" level="project" />
-    <orderEntry type="library" name="Gradle: org.jetbrains.kotlin:kotlin-stdlib-common:1.5.10" level="project" />
-    <orderEntry type="library" name="Gradle: com.google.code.gson:gson:2.8.5" level="project" />
-    <orderEntry type="library" name="Gradle: androidx.room:room-common:2.3.0" level="project" />
-    <orderEntry type="library" name="Gradle: androidx.annotation:annotation:1.1.0" level="project" />
-    <orderEntry type="library" name="Gradle: androidx.room:room-runtime:2.3.0@aar" level="project" />
-    <orderEntry type="library" name="Gradle: androidx.sqlite:sqlite-framework:2.1.0@aar" level="project" />
-    <orderEntry type="library" name="Gradle: androidx.sqlite:sqlite:2.1.0@aar" level="project" />
   </component>
 </module>

@@ -9,7 +9,7 @@ import com.stockbit.model.Account
 data class AccountEntity(
 
     @PrimaryKey
-    @ColumnInfo(name = "id")
+    @ColumnInfo(name = "account_id")
     val id: String,
 
     @ColumnInfo(name = "username")
