@@ -84,13 +84,19 @@ class HomeFragment : BaseFragment(){
     }
 
     private fun FragmentHomeBinding.showLoading(isLoading: Boolean) {
-        if(!isLoading) return
+        if(!isLoading) {
+            moreProgress.visible()
+            return
+        }
         srlCrypto.gone()
         contentProgress.visible()
     }
 
     private fun FragmentHomeBinding.hideLoading(isLoading: Boolean) {
-        if(!isLoading) return
+        if(!isLoading) {
+            moreProgress.gone()
+            return
+        }
         contentProgress.gone()
         srlCrypto.visible()
     }

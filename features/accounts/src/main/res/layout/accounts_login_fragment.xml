@@ -146,6 +146,7 @@
                         android:layout_height="wrap_content"
                         style="@style/Widget.AppCompat.ProgressBar"
                         android:layout_gravity="center_horizontal"
+                        android:indeterminateTint="@color/colorPrimary"
                         android:visibility="gone"/>
                 </FrameLayout>
 
