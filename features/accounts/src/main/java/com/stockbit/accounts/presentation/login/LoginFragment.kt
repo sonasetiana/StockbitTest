@@ -106,6 +106,7 @@ class LoginFragment : BaseFragment() {
                             }
                             Resource.Status.ERROR -> {
                                 loginProgress.gone()
+                                btnLogin.visible()
                                 Toast.makeText(requireContext(), it.error?.message ?: "", Toast.LENGTH_SHORT).show()
                             }
                         }
