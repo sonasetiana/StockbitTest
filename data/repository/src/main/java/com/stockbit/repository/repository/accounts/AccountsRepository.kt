@@ -7,4 +7,5 @@ import kotlinx.coroutines.flow.Flow
 interface AccountsRepository {
     fun setupAccounts()
     fun doLogin(usernameOrEmail: String, password: String) : Flow<Resource<AccountView>>
+    val isLogin : Boolean
 }

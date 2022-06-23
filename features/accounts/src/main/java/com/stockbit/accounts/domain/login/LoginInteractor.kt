@@ -15,4 +15,7 @@ class LoginInteractor(
     override fun doLogin(usernameOrEmail: String, password: String): Flow<Resource<AccountView>> {
         return repository.doLogin(usernameOrEmail, password)
     }
+
+    override val isLogin: Boolean
+        get() = repository.isLogin
 }

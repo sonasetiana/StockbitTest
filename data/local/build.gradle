@@ -20,6 +20,7 @@ dependencies {
     implementation project(Modules.model)
     // KOIN
     implementation Libraries.koin
+    implementation Libraries.gson
     //implementation Libraries.koinViewModel
     // TEST
     androidTestImplementation TestLibraries.androidTestRunner

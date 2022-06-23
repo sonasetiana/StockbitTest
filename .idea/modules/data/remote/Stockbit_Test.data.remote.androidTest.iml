@@ -49,6 +49,7 @@
                 <arg>$USER_HOME$/.gradle/caches/transforms-2/files-2.1/2eaef05f75a4f64ab82491a2e6218214/jetified-okhttp-3.14.7.jar</arg>
                 <arg>$USER_HOME$/.gradle/caches/transforms-2/files-2.1/36a9f9fd838e6fa9a4609afdcebb3e01/jetified-okio-1.17.2.jar</arg>
                 <arg>$MODULE_DIR$/../../../../data/model/build/intermediates/compile_library_classes_jar/debug/classes.jar</arg>
+                <arg>$MODULE_DIR$/../../../../data/remote/build/intermediates/compile_library_classes_jar/debug/classes.jar</arg>
                 <arg>$USER_HOME$/Library/Android/sdk/platforms/android-31/android.jar</arg>
                 <arg>$USER_HOME$/Library/Android/sdk/build-tools/29.0.2/core-lambda-stubs.jar</arg>
               </args>

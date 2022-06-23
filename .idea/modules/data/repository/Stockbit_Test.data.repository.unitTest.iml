@@ -59,7 +59,11 @@
                 <arg>$USER_HOME$/.gradle/caches/transforms-2/files-2.1/0eabbd8db099cac757dc9de5a5e298bf/jetified-mockk-common-1.11.0.jar</arg>
                 <arg>$USER_HOME$/.gradle/caches/transforms-2/files-2.1/dee0c4076ff7d2997df4c35eb9335325/jetified-mockk-dsl-jvm-1.11.0.jar</arg>
                 <arg>$USER_HOME$/.gradle/caches/transforms-2/files-2.1/ef283aba25bf5ff7119352cd0cf1ee56/jetified-mockk-dsl-1.11.0.jar</arg>
+                <arg>$MODULE_DIR$/../../../../data/remote/build/intermediates/compile_library_classes_jar/debug/classes.jar</arg>
                 <arg>$MODULE_DIR$/../../../../data/local/build/intermediates/compile_library_classes_jar/debug/classes.jar</arg>
+                <arg>$MODULE_DIR$/../../../../data/repository/build/intermediates/javac/debug/classes</arg>
+                <arg>$MODULE_DIR$/../../../../data/repository/build/tmp/kotlin-classes/debug</arg>
+                <arg>$MODULE_DIR$/../../../../data/repository/build/tmp/kapt3/classes/debug</arg>
                 <arg>$USER_HOME$/Library/Android/sdk/platforms/android-31/android.jar</arg>
                 <arg>$USER_HOME$/Library/Android/sdk/build-tools/29.0.2/core-lambda-stubs.jar</arg>
               </args>

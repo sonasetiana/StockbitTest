@@ -21,4 +21,6 @@ class LoginViewModel(
     ) : LiveData<Resource<AccountView>> {
         return useCase.doLogin(usernameOrEmail, password).asLiveData()
     }
+
+    val isLogin : Boolean = useCase.isLogin
 }

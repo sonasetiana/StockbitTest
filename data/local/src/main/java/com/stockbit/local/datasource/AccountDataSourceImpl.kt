@@ -1,13 +1,15 @@
 package com.stockbit.local.datasource
 
 import com.stockbit.local.dao.AccountDao
+import com.stockbit.local.pref.DataPreference
 import com.stockbit.model.entity.accounts.AccountView
 import com.stockbit.model.entity.accounts.AccountEntity
 import kotlinx.coroutines.flow.Flow
 import kotlinx.coroutines.flow.map
 
 class AccountDataSourceImpl(
-    private val dao: AccountDao
+    private val dao: AccountDao,
+    private val pref: DataPreference
 ) : AccountDataSource{
     override suspend fun saveAccount(data: AccountView) {
         dao.save(AccountEntity(data))
@@ -36,6 +38,18 @@ class AccountDataSourceImpl(
                     AccountView(it)
                 }
             }
+    }
+
+    override fun saveAccountToPref(account: AccountView) {
+        pref.saveAccount(account)
+    }
+
+    override fun getAccountFromPref(): AccountView? {
+        return pref.getAccount()
+    }
+
+    override fun removeAccountFromPref() {
+        pref.removeAccount()
     }
 
 }

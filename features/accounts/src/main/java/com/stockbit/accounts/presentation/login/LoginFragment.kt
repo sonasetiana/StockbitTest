@@ -40,6 +40,10 @@ class LoginFragment : BaseFragment() {
 
     override fun onViewCreated(view: View, savedInstanceState: Bundle?) {
         super.onViewCreated(view, savedInstanceState)
+        if(loginViewModel.isLogin){
+            moveToHome()
+            return
+        }
         onSetupAccountData()
         initBinding()
     }

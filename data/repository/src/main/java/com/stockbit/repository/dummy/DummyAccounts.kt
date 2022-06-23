@@ -5,22 +5,22 @@ import java.util.*
 
 object DummyAccounts {
     fun getAccounts() : List<AccountView> {
-        val one = AccountView(
+        val user = AccountView(
             id = UUID.randomUUID().toString(),
-            username = "oliverking",
-            email = "oliverking@gmail.com",
+            username = "user",
+            email = "user@mail.com",
             phone = "082231314567",
-            password = "qwerty123"
+            password = "12345"
         )
 
-        val two = AccountView(
+        val jhondoe = AccountView(
             id = UUID.randomUUID().toString(),
-            username = "oliverking",
-            email = "oliverking@gmail.com",
+            username = "jhondoe",
+            email = "jhondoe@mail.com",
             phone = "082231314567",
-            password = "qwerty123"
+            password = "12345"
         )
-        return arrayListOf(one, two)
+        return arrayListOf(user, jhondoe)
     }
 
 }

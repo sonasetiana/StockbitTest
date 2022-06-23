@@ -37,8 +37,12 @@ class AccountsRepositoryImpl(
                 if(it.isNullOrEmpty()){
                     emit(Resource.error(error = Throwable(message = "Username or email and password not valid"), data = null))
                 }else {
+                    dataSource.saveAccountToPref(it[0])
                     emit(Resource.success(it[0]))
                 }
             }
     }
+
+    override val isLogin: Boolean
+        get() = dataSource.getAccountFromPref() != null
 }

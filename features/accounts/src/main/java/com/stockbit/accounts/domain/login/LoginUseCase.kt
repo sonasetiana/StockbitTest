@@ -10,4 +10,5 @@ interface LoginUseCase {
         usernameOrEmail: String,
         password: String
     ) : Flow<Resource<AccountView>>
+    val isLogin : Boolean
 }

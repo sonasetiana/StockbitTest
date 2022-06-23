@@ -32,6 +32,7 @@
                 <arg>$USER_HOME$/.gradle/caches/transforms-2/files-2.1/7944aa43a11a5666b880d832d9319b82/jetified-kotlin-test-common-1.5.31.jar</arg>
                 <arg>$USER_HOME$/.gradle/caches/transforms-2/files-2.1/66db8e7a116591823fd373bed5865537/jetified-kotlin-test-annotations-common-1.5.31.jar</arg>
                 <arg>$USER_HOME$/.gradle/caches/transforms-2/files-2.1/3bec245692aac9689c6cdee0375e0588/jetified-kotlin-stdlib-common-1.5.31.jar</arg>
+                <arg>$USER_HOME$/.gradle/caches/transforms-2/files-2.1/608631654a0a697a07cd9a87dff15320/jetified-gson-2.8.5.jar</arg>
                 <arg>$USER_HOME$/.gradle/caches/transforms-2/files-2.1/1dd0bf9687df0c88c3c643967defd1cd/room-runtime-2.3.0-api.jar</arg>
                 <arg>$USER_HOME$/.gradle/caches/modules-2/files-2.1/androidx.room/room-common/2.3.0/11e5b5194cb53b2c5ebfa57710a1a74c67cb3335/room-common-2.3.0.jar</arg>
                 <arg>$USER_HOME$/.gradle/caches/transforms-2/files-2.1/29127a32e5f62dca83305ec4dbd3e228/jetified-core-1.1.0-api.jar</arg>
@@ -151,6 +152,7 @@
     <orderEntry type="library" scope="TEST" name="Gradle: org.jetbrains.kotlin:kotlin-test-common:1.5.31" level="project" />
     <orderEntry type="library" scope="TEST" name="Gradle: org.jetbrains.kotlin:kotlin-test-annotations-common:1.5.31" level="project" />
     <orderEntry type="library" scope="TEST" name="Gradle: org.jetbrains.kotlin:kotlin-stdlib-common:1.5.31" level="project" />
+    <orderEntry type="library" scope="TEST" name="Gradle: com.google.code.gson:gson:2.8.5" level="project" />
     <orderEntry type="library" scope="TEST" name="Gradle: androidx.room:room-common:2.3.0" level="project" />
     <orderEntry type="library" scope="TEST" name="Gradle: androidx.arch.core:core-common:2.1.0" level="project" />
     <orderEntry type="library" scope="TEST" name="Gradle: androidx.lifecycle:lifecycle-common:2.3.1" level="project" />

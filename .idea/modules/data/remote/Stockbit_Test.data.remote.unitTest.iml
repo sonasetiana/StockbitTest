@@ -60,6 +60,7 @@
                 <arg>$USER_HOME$/.gradle/caches/transforms-2/files-2.1/1843ff7c727427f6f06109e49cfca36e/jetified-junit-4.12.jar</arg>
                 <arg>$USER_HOME$/.gradle/caches/transforms-2/files-2.1/268f96547c036ada0e1427655cd7b07e/jetified-hamcrest-core-1.3.jar</arg>
                 <arg>$MODULE_DIR$/../../../../data/model/build/intermediates/compile_library_classes_jar/debug/classes.jar</arg>
+                <arg>$MODULE_DIR$/../../../../data/remote/build/intermediates/javac/debug/classes</arg>
                 <arg>$MODULE_DIR$/../../../../data/remote/build/tmp/kotlin-classes/debug</arg>
                 <arg>$MODULE_DIR$/../../../../data/remote/build/tmp/kapt3/classes/debug</arg>
                 <arg>$USER_HOME$/Library/Android/sdk/platforms/android-31/android.jar</arg>

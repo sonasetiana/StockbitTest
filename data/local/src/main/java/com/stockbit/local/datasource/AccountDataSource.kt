@@ -9,4 +9,7 @@ interface AccountDataSource {
     fun getAccounts(): Flow<List<AccountView>>
     fun getTotalAccount(): Flow<Int>
     fun findAccount(emailOrUsername: String, password: String) : Flow<List<AccountView>>
+    fun saveAccountToPref(account: AccountView)
+    fun getAccountFromPref(): AccountView?
+    fun removeAccountFromPref()
 }

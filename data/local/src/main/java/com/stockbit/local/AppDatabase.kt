@@ -23,7 +23,7 @@ abstract class AppDatabase: RoomDatabase() {
     companion object {
 
         fun buildDatabase(context: Context) =
-            Room.databaseBuilder(context.applicationContext, AppDatabase::class.java, "AppStockbit.db")
+            Room.databaseBuilder(context.applicationContext, AppDatabase::class.java, "App.db")
                 .build()
     }
 }
