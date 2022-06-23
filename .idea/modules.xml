@@ -40,6 +40,10 @@
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/features/accounts/Stockbit_Test.features.accounts.androidTest.iml" filepath="$PROJECT_DIR$/.idea/modules/features/accounts/Stockbit_Test.features.accounts.androidTest.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/features/accounts/Stockbit_Test.features.accounts.main.iml" filepath="$PROJECT_DIR$/.idea/modules/features/accounts/Stockbit_Test.features.accounts.main.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/features/accounts/Stockbit_Test.features.accounts.unitTest.iml" filepath="$PROJECT_DIR$/.idea/modules/features/accounts/Stockbit_Test.features.accounts.unitTest.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/features/home/Stockbit_Test.features.home.iml" filepath="$PROJECT_DIR$/.idea/modules/features/home/Stockbit_Test.features.home.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/features/home/Stockbit_Test.features.home.androidTest.iml" filepath="$PROJECT_DIR$/.idea/modules/features/home/Stockbit_Test.features.home.androidTest.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/features/home/Stockbit_Test.features.home.main.iml" filepath="$PROJECT_DIR$/.idea/modules/features/home/Stockbit_Test.features.home.main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/features/home/Stockbit_Test.features.home.unitTest.iml" filepath="$PROJECT_DIR$/.idea/modules/features/home/Stockbit_Test.features.home.unitTest.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/navigation/Stockbit_Test.navigation.iml" filepath="$PROJECT_DIR$/.idea/modules/navigation/Stockbit_Test.navigation.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/navigation/Stockbit_Test.navigation.androidTest.iml" filepath="$PROJECT_DIR$/.idea/modules/navigation/Stockbit_Test.navigation.androidTest.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/navigation/Stockbit_Test.navigation.main.iml" filepath="$PROJECT_DIR$/.idea/modules/navigation/Stockbit_Test.navigation.main.iml" />

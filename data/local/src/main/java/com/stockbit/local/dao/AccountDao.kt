@@ -2,7 +2,7 @@ package com.stockbit.local.dao
 
 import androidx.room.Dao
 import androidx.room.Query
-import com.stockbit.model.entity.AccountEntity
+import com.stockbit.model.entity.accounts.AccountEntity
 import kotlinx.coroutines.flow.Flow
 
 @Dao
@@ -18,6 +18,9 @@ abstract class AccountDao : BaseDao<AccountEntity>() {
 
     @Query("SELECT * FROM Account")
     abstract fun getAccounts() : Flow<List<AccountEntity>>
+
+    @Query("select count() from Account")
+    abstract fun getTotalAccount(): Flow<Int>
 
     @Query("SELECT * FROM Account WHERE (email = :emailOrUsername or username = :emailOrUsername) AND password = :password")
     abstract fun findAccount(

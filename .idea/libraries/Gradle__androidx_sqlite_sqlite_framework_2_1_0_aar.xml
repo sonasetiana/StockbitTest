@@ -11,9 +11,11 @@
       <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/3bc0ecd8315775732ccb6659f0d7c672/sqlite-framework-2.1.0/res" />
       <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/b497a1187fc7bb150161833ba4deddec/sqlite-framework-2.1.0/res" />
       <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/372c846c9562f53a35d92d117cacfc22/sqlite-framework-2.1.0/res" />
-      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/8a0aa22448269a480d9b1be3d20d3f80/sqlite-framework-2.1.0/AndroidManifest.xml" />
       <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/8a0aa22448269a480d9b1be3d20d3f80/sqlite-framework-2.1.0/res" />
-      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/8a0aa22448269a480d9b1be3d20d3f80/sqlite-framework-2.1.0/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/d933bc0421741f8281dae7a34d8946c0/sqlite-framework-2.1.0/res" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/4a2b82b1bcc927485843247d65a7ffaa/sqlite-framework-2.1.0/res" />
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/4a2b82b1bcc927485843247d65a7ffaa/sqlite-framework-2.1.0/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/4a2b82b1bcc927485843247d65a7ffaa/sqlite-framework-2.1.0/AndroidManifest.xml" />
     </CLASSES>
     <JAVADOC />
     <SOURCES>

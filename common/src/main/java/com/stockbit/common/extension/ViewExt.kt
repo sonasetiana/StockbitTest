@@ -32,4 +32,4 @@ fun View.visible() = View.VISIBLE.also { this.visibility = it }
 
 fun View.inVisible() = View.INVISIBLE.also { this.visibility = it }
 
-fun View.gone() = View.VISIBLE.also { this.visibility = it }
+fun View.gone() = View.GONE.also { this.visibility = it }

@@ -1,31 +1,35 @@
 package com.stockbit.repository.repository.accounts
 
 import com.stockbit.local.datasource.AccountDataSource
-import com.stockbit.model.Account
+import com.stockbit.model.entity.accounts.AccountView
 import com.stockbit.repository.AppDispatchers
 import com.stockbit.repository.dummy.DummyAccounts
+import com.stockbit.repository.repository.BaseRepository
 import com.stockbit.repository.utils.Resource
-import kotlinx.coroutines.CoroutineScope
-import kotlinx.coroutines.Job
 import kotlinx.coroutines.flow.*
 import kotlinx.coroutines.launch
-import kotlinx.coroutines.withContext
 
 class AccountsRepositoryImpl(
     private val dispatcher: AppDispatchers,
     private val dataSource: AccountDataSource
-) : AccountsRepository{
+) : BaseRepository(), AccountsRepository{
     override fun setupAccounts() {
-        CoroutineScope(Job()).launch(dispatcher.io) {
-            dataSource
-                .saveAccountList(DummyAccounts.getAccounts())
+        launch {
+            dataSource.getTotalAccount()
+                .collect{ total ->
+                    if(total == 0){
+                        dataSource
+                            .saveAccountList(DummyAccounts.getAccounts())
+                    }
+                }
         }
+
     }
 
     override fun doLogin(
         usernameOrEmail: String,
         password: String
-    ): Flow<Resource<Account>> = flow {
+    ): Flow<Resource<AccountView>> = flow {
         emit(Resource.loading(null))
         dataSource.findAccount(usernameOrEmail, password)
             .flowOn(dispatcher.io)

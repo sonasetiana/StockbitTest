@@ -4,7 +4,7 @@ import androidx.lifecycle.LiveData
 import androidx.lifecycle.asLiveData
 import com.stockbit.accounts.domain.login.LoginUseCase
 import com.stockbit.common.base.BaseViewModel
-import com.stockbit.model.Account
+import com.stockbit.model.entity.accounts.AccountView
 import com.stockbit.repository.utils.Resource
 
 class LoginViewModel(
@@ -18,7 +18,7 @@ class LoginViewModel(
     fun doLogin(
         usernameOrEmail: String,
         password: String
-    ) : LiveData<Resource<Account>> {
+    ) : LiveData<Resource<AccountView>> {
         return useCase.doLogin(usernameOrEmail, password).asLiveData()
     }
 }

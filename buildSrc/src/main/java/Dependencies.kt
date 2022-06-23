@@ -16,6 +16,7 @@ object Modules {
     val repository = ":data:repository"
 
     val account = ":features:accounts"
+    val home = ":features:home"
 }
 
 object Releases {

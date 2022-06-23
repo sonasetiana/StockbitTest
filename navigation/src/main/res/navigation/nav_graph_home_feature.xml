@@ -9,9 +9,14 @@
     <fragment android:id="@+id/login_fragment"
         android:name="com.stockbit.accounts.presentation.login.LoginFragment"
         tools:layout="@layout/accounts_login_fragment">
-<!--        <action-->
-<!--            android:id="@+id/action_to_home"-->
-<!--            app:destination="@+id/fragment_home"/>-->
+        <action
+            android:id="@+id/action_to_home"
+            app:destination="@+id/home_fragment"/>
     </fragment>
+
+    <fragment
+        android:id="@+id/home_fragment"
+        android:name="com.stockbit.home.presentation.HomeFragment"
+        tools:layout="@layout/fragment_home" />
 
 </navigation>

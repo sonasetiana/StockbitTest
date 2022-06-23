@@ -30,4 +30,5 @@ dependencies {
     implementation AndroidLibraries.navigationFrag
     // FEATURES
     implementation project(Modules.account)
+    implementation project(Modules.home)
 }

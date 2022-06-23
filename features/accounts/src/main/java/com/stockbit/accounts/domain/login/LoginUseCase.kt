@@ -1,6 +1,6 @@
 package com.stockbit.accounts.domain.login
 
-import com.stockbit.model.Account
+import com.stockbit.model.entity.accounts.AccountView
 import com.stockbit.repository.utils.Resource
 import kotlinx.coroutines.flow.Flow
 
@@ -9,5 +9,5 @@ interface LoginUseCase {
     fun doLogin(
         usernameOrEmail: String,
         password: String
-    ) : Flow<Resource<Account>>
+    ) : Flow<Resource<AccountView>>
 }

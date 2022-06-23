@@ -15,14 +15,8 @@ import com.stockbit.navigation.NavigationCommand
 
 abstract class BaseFragment: Fragment() {
 
-//    override fun onActivityCreated(savedInstanceState: Bundle?) {
-//        super.onActivityCreated(savedInstanceState)
-//        observeNavigation(getViewModel())
-//        setupSnackbar(this, getViewModel().snackBarError, Snackbar.LENGTH_LONG)
-//    }
-
-    override fun onViewCreated(view: View, savedInstanceState: Bundle?) {
-        super.onViewCreated(view, savedInstanceState)
+    override fun onActivityCreated(savedInstanceState: Bundle?) {
+        super.onActivityCreated(savedInstanceState)
         observeNavigation(getViewModel())
         setupSnackbar(this, getViewModel().snackBarError, Snackbar.LENGTH_LONG)
     }

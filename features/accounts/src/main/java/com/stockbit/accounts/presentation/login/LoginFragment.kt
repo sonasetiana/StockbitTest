@@ -22,33 +22,33 @@ import com.stockbit.common.extension.visible
 import com.stockbit.repository.utils.Resource
 import org.koin.androidx.viewmodel.ext.android.viewModel
 
-class LoginFragment : Fragment(), LoginView {
+class LoginFragment : BaseFragment() {
     private lateinit var binding : AccountsLoginFragmentBinding
 
     private val loginViewModel: LoginViewModel by viewModel()
 
-    //override fun getViewModel(): BaseViewModel = loginViewModel
+    override fun getViewModel(): BaseViewModel = loginViewModel
 
     override fun onCreateView(
         inflater: LayoutInflater,
         container: ViewGroup?,
         savedInstanceState: Bundle?
     ): View? {
-        binding = AccountsLoginFragmentBinding.inflate(inflater, container, false)
+        binding = AccountsLoginFragmentBinding.inflate(inflater)
         return binding.root
     }
 
     override fun onViewCreated(view: View, savedInstanceState: Bundle?) {
         super.onViewCreated(view, savedInstanceState)
-        //onSetupAccountData()
+        onSetupAccountData()
         initBinding()
     }
 
-    override fun onSetupAccountData() {
+    private fun onSetupAccountData() {
         loginViewModel.initAccounts()
     }
 
-    override fun initBinding() {
+    private fun initBinding() {
         with(binding){
             val spanText = getString(R.string.account_btn_suggest_register)
             val spanColor = ContextCompat.getColor(requireContext(), R.color.colorPrimary)
@@ -102,7 +102,7 @@ class LoginFragment : Fragment(), LoginView {
                             Resource.Status.SUCCESS -> {
                                 loginProgress.gone()
                                 btnLogin.visible()
-                                Toast.makeText(requireContext(), "SUCCESS", Toast.LENGTH_SHORT).show()
+                                moveToHome()
                             }
                             Resource.Status.ERROR -> {
                                 loginProgress.gone()
@@ -115,8 +115,9 @@ class LoginFragment : Fragment(), LoginView {
         }
     }
 
-    override fun moveToHome() {
-        
+    private fun moveToHome() {
+        val directions = LoginFragmentDirections.actionToHome()
+        loginViewModel.navigate(directions)
     }
 
 

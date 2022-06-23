@@ -9,7 +9,7 @@ import com.stockbit.local.converter.Converters
 import com.stockbit.local.dao.AccountDao
 import com.stockbit.local.dao.ExampleDao
 import com.stockbit.model.ExampleModel
-import com.stockbit.model.entity.AccountEntity
+import com.stockbit.model.entity.accounts.AccountEntity
 
 @Database(entities = [ExampleModel::class, AccountEntity::class], version = 1, exportSchema = false)
 @TypeConverters(Converters::class)
@@ -23,7 +23,7 @@ abstract class AppDatabase: RoomDatabase() {
     companion object {
 
         fun buildDatabase(context: Context) =
-            Room.databaseBuilder(context.applicationContext, AppDatabase::class.java, "App.db")
+            Room.databaseBuilder(context.applicationContext, AppDatabase::class.java, "AppStockbit.db")
                 .build()
     }
 }

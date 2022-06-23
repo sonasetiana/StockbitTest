@@ -14,15 +14,15 @@
           <stringArguments>
             <stringArg name="classpath">
               <args>
-                <arg>$USER_HOME$/.gradle/caches/transforms-2/files-2.1/b2004f7bf36d1179717663f64de3ad23/jetified-kotlin-stdlib-jdk7-1.5.10.jar</arg>
-                <arg>$USER_HOME$/.gradle/caches/transforms-2/files-2.1/ff38c566979fdf6fd946f7a12d531574/jetified-kotlin-stdlib-1.5.10.jar</arg>
-                <arg>$USER_HOME$/.gradle/caches/transforms-2/files-2.1/85610fd8efd38b48d1d7a08bc5565972/jetified-annotations-13.0.jar</arg>
-                <arg>$USER_HOME$/.gradle/caches/transforms-2/files-2.1/a74ab5f026910f52c8a796ac9da5af7b/jetified-kotlin-stdlib-common-1.5.10.jar</arg>
-                <arg>$USER_HOME$/.gradle/caches/transforms-2/files-2.1/a5febf7c0a7cb3758fc1a0e73e803f0c/jetified-gson-2.8.5.jar</arg>
-                <arg>$USER_HOME$/.gradle/caches/transforms-2/files-2.1/e9a31b4782ec05d9fff5b31a62ce5075/room-runtime-2.3.0-api.jar</arg>
+                <arg>$USER_HOME$/.gradle/caches/transforms-2/files-2.1/26f7f1ad6728bdc331d72056e5216fce/jetified-kotlin-stdlib-jdk7-1.5.10.jar</arg>
+                <arg>$USER_HOME$/.gradle/caches/transforms-2/files-2.1/a9c9f598bc129b1208f6e0fc866996d9/jetified-kotlin-stdlib-1.5.10.jar</arg>
+                <arg>$USER_HOME$/.gradle/caches/transforms-2/files-2.1/3229edc24a9bb6e18e86eab79a0fa2ef/jetified-annotations-13.0.jar</arg>
+                <arg>$USER_HOME$/.gradle/caches/transforms-2/files-2.1/04d468a01ce22cf5ae37ca87876d02ef/jetified-kotlin-stdlib-common-1.5.10.jar</arg>
+                <arg>$USER_HOME$/.gradle/caches/transforms-2/files-2.1/2602f3b7231d2177f7469d85796a3b7b/jetified-gson-2.8.5.jar</arg>
+                <arg>$USER_HOME$/.gradle/caches/transforms-2/files-2.1/706557b51a282e016954a65efeb9e35f/room-runtime-2.3.0-api.jar</arg>
                 <arg>$USER_HOME$/.gradle/caches/modules-2/files-2.1/androidx.room/room-common/2.3.0/11e5b5194cb53b2c5ebfa57710a1a74c67cb3335/room-common-2.3.0.jar</arg>
-                <arg>$USER_HOME$/.gradle/caches/transforms-2/files-2.1/8d3c4ec59ad1e8f75b9a8a2bd5c02e4c/sqlite-framework-2.1.0-api.jar</arg>
-                <arg>$USER_HOME$/.gradle/caches/transforms-2/files-2.1/05dc310867d78643bcda3db03ad59106/sqlite-2.1.0-api.jar</arg>
+                <arg>$USER_HOME$/.gradle/caches/transforms-2/files-2.1/bd66a1353135f181849708e9d8e2a8ce/sqlite-framework-2.1.0-api.jar</arg>
+                <arg>$USER_HOME$/.gradle/caches/transforms-2/files-2.1/d9a31c8ca4f4cdd0552d38acf44ace1e/sqlite-2.1.0-api.jar</arg>
                 <arg>$USER_HOME$/.gradle/caches/modules-2/files-2.1/androidx.annotation/annotation/1.1.0/e3a6fb2f40e3a3842e6b7472628ba4ce416ea4c8/annotation-1.1.0.jar</arg>
                 <arg>$MODULE_DIR$/../../../../data/model/build/intermediates/compile_library_classes_jar/debug/classes.jar</arg>
                 <arg>$USER_HOME$/Library/Android/sdk/platforms/android-31/android.jar</arg>
