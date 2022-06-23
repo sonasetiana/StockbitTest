@@ -36,6 +36,8 @@
                 <arg>$USER_HOME$/.gradle/caches/transforms-2/files-2.1/5a65d4a365d63fe399b4105a3c0faf1c/jetified-koin-core-jvm-3.1.5.jar</arg>
                 <arg>$USER_HOME$/.gradle/caches/transforms-2/files-2.1/0b55d20420422661a9dced6ab6234569/jetified-kotlin-stdlib-jdk8-1.5.31.jar</arg>
                 <arg>$USER_HOME$/.gradle/caches/transforms-2/files-2.1/eafe6ebdb9d0f3ac3e5dc86a53dc5f80/jetified-kotlin-stdlib-jdk7-1.5.31.jar</arg>
+                <arg>$USER_HOME$/.gradle/caches/transforms-2/files-2.1/2f6e800535e9af9b2c8710b4808649ab/jetified-kotlinx-coroutines-android-1.4.3.jar</arg>
+                <arg>$USER_HOME$/.gradle/caches/transforms-2/files-2.1/8029dd21ff88771bf393baae4d30c8ee/jetified-kotlinx-coroutines-core-jvm-1.4.3.jar</arg>
                 <arg>$USER_HOME$/.gradle/caches/transforms-2/files-2.1/a7e2ca109cbaabe98f5e6aa331864541/jetified-kotlin-stdlib-1.5.31.jar</arg>
                 <arg>$USER_HOME$/.gradle/caches/transforms-2/files-2.1/3229edc24a9bb6e18e86eab79a0fa2ef/jetified-annotations-13.0.jar</arg>
                 <arg>$USER_HOME$/.gradle/caches/transforms-2/files-2.1/2f8927a3cfcea6cf2be304d020b56871/jetified-kotlin-stdlib-common-1.5.31.jar</arg>
@@ -127,6 +129,8 @@
     <orderEntry type="library" name="Gradle: io.insert-koin:koin-core-jvm:3.1.5" level="project" />
     <orderEntry type="library" name="Gradle: org.jetbrains.kotlin:kotlin-stdlib-jdk8:1.5.31" level="project" />
     <orderEntry type="library" name="Gradle: org.jetbrains.kotlin:kotlin-stdlib-jdk7:1.5.31" level="project" />
+    <orderEntry type="library" name="Gradle: org.jetbrains.kotlinx:kotlinx-coroutines-android:1.4.3" level="project" />
+    <orderEntry type="library" name="Gradle: org.jetbrains.kotlinx:kotlinx-coroutines-core-jvm:1.4.3" level="project" />
     <orderEntry type="library" name="Gradle: org.jetbrains.kotlin:kotlin-stdlib:1.5.31" level="project" />
     <orderEntry type="library" name="Gradle: org.jetbrains:annotations:13.0" level="project" />
     <orderEntry type="library" name="Gradle: org.jetbrains.kotlin:kotlin-stdlib-common:1.5.31" level="project" />
